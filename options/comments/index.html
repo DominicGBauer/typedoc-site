@@ -156,6 +156,9 @@ intellisense in VSCode and is therefore generally not recommended.</p>
 <h2 id="usetslinkresolution" tabindex="-1">useTsLinkResolution</h2>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--useTsLinkResolution</span> <span class="token boolean">false</span></code></pre>
 <p>Indicates that <code>{@link}</code> tags should be resolved with TypeScript's parsing rules. This is on by default.</p>
+<h2 id="preservelinktext" tabindex="-1">preserveLinkText</h2>
+<pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--preserveLinkText</span> <span class="token boolean">false</span></code></pre>
+<p>Indicates whether or not <code>{@link}</code> tags should include just the name of the target reflection, or the original link text. This is on by default.</p>
 <h2 id="jsdoccompatibility" tabindex="-1">jsDocCompatibility</h2>
 <p>CLI:</p>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--jsDocCompatibility</span> <span class="token boolean">false</span><br>$ typedoc <span class="token parameter variable">--jsDocCompatibility.defaultTags</span> <span class="token boolean">false</span></code></pre>
