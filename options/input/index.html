@@ -174,6 +174,9 @@ If an exported member from one of your entry points is located in an excluded fi
 <h2 id="excludereferences" tabindex="-1">excludeReferences</h2>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--excludeReferences</span></code></pre>
 <p>Removes re-exports of a symbol already included in the documentation from the documentation. Defaults to false.</p>
+<h2 id="excludecategories" tabindex="-1">excludeCategories</h2>
+<pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--excludeCategories</span> A <span class="token parameter variable">--excludeCategories</span> B</code></pre>
+<p>Removes reflections associated with any of the given categories.</p>
 <h2 id="name" tabindex="-1">name</h2>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--name</span> <span class="token operator">&lt;</span>Documentation title<span class="token operator">></span></code></pre>
 <p>Set the name of the project that will be used in the header of the template.
@@ -208,6 +211,9 @@ the base URL for links. Links will be created to <code>{gitRemote}/{gitRevision}
 <h2 id="readme" tabindex="-1">readme</h2>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--readme</span> <span class="token operator">&lt;</span>path/to/readme<span class="token operator">|</span>none<span class="token operator">></span></code></pre>
 <p>Path to the readme file that should be displayed on the index page. If no readme is discovered or read, the index page will be disabled.</p>
+<h2 id="stripyamlfrontmatter" tabindex="-1">stripYamlFrontmatter</h2>
+<pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--stripYamlFrontmatter</span></code></pre>
+<p>Remove YAML frontmatter from the readme file displayed on the main page.</p>
 </div>
         <div class="toc-container"></div>
     </div>
